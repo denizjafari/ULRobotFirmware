@@ -12,5 +12,5 @@ Haptic Firmware
   8. Program esp32c3 through your IDE.
 
 - Installing aioble library for ble communication
-  1. git clone https://github.com/aioble/aioble.git
-  2. Drag and drop aioble into pymakr workspace
+  1. git clone https://github.com/micropython/micropython-lib.git
+  2. Drag and drop aioble into pymakr workspace, or just clone it directly in ws.
