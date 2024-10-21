@@ -10,3 +10,7 @@ Haptic Firmware
   6. Enter this command "python -m esptool --chip esp32c3 --port COM13 erase_flash". Change COM13 to the port that the esp32c3 is connected to on your PC.
   7. Enter this command "python -m esptool --chip esp32c3 --port COM13 --baud 115200 write_flash -z 0x0 esp32c3-usb-20230426-v1.20.0.bin". Again, change COM13 to the port that the esp32c3 is connected to on your PC. Also, change the bin file name to the one you downloaded.
   8. Program esp32c3 through your IDE.
+
+- Installing aioble library for ble communication
+  1. git clone https://github.com/aioble/aioble.git
+  2. Drag and drop aioble into pymakr workspace
