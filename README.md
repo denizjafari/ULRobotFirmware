@@ -15,3 +15,4 @@ Haptic Firmware
   1. git clone https://github.com/micropython/micropython-lib.git
   2. Drag and drop aioble into pymakr workspace, or just clone it directly in ws.
   3. FYI: I found issues with this method, so I instead just downloaded the aioble package in thonny and programmed there.
+
